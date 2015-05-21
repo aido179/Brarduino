@@ -1,0 +1,22 @@
+{
+  "name": "Brarduino",
+  "version": "0.0.1",
+  "description": "Bradshaws Arduino Project (BAP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aido179/Brarduino.git"
+  },
+  "author": "Aidan Breen <aido179@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aido179/Brarduino/issues"
+  },
+  "homepage": "https://github.com/aido179/Brarduino",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
