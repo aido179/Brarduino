@@ -13,3 +13,10 @@ Bradshaws Arduino Project (BAP)
 3. Edit your code.
 4. Save your code, gulp should automatically send it to the arduino.
 5. When you are finished, make a commit and push it to your branch.
+
+
+##Running Node.js
+1.	Search for node.js command prompt. 
+2.	Point at working directory. 
+3.	To run hit node [FileName]
+
