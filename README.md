@@ -16,7 +16,8 @@ Bradshaws Arduino Project (BAP)
 
 
 ##Running Node.js
-1.	Search for node.js command prompt. 
-2.	Point at working directory. 
-3.	To run hit node [FileName]
+1. 	Flash Firmata from Arduino tool. (File > Examples > Firmata > StandardFirmata)
+2.	Search for node.js command prompt and launch. 
+3.	Point  node.js command prompt at working directory.
+4.	To run hit node [FileName] - e.g. node CIRC01-code-led-a-strobe.js
 
