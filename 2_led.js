@@ -26,7 +26,7 @@ board.on("ready", function()
 			clock: 10
 		}
 	});
-	value = 1;
+	value = 0;
 	
 
 	function next()
@@ -42,23 +42,23 @@ board.on("ready", function()
   {
 	  if(lightOn == true)
 	  {
-		value = 4;
+		value = 1;
 		lightOn = false;
 		next();
 	  }
 	  else 
 	  {
-		 value = 8;
+		 value = 2;
 		  lightOn = true;
 		  next();
 	  }
   }
 	function foo2()
   {
-	  if(lightOn2 == true)
+	  if(lightOn == true)
 	  {
 		value =  4;
-		lightOn2 = false;
+		lightOn = false;
 		next();
 	  }
 	  else 
@@ -71,16 +71,16 @@ board.on("ready", function()
   
   function foo3()
   {
-	  if(lightOn2 == true)
+	  if(lightOn == true)
 	  {
 		value =  32;
-		lightOn2 = false;
+		lightOn = false;
 		next();
 	  }
 	  else 
 	  {
 		 value =  64;
-		  lightOn2 = true;
+		  lightOn = true;
 		  next(); 
 	  }
   }
