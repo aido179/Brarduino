@@ -12,8 +12,8 @@ myBoard.on("ready", function()
   myLed2 = new five.Led(10);
   myLed3 = new five.Led(9);
   
- myLed2.on();
- myLed1.on();
-
+// myLed2.on();//green
+ //myLed1.on();//red
+ //myLed3.on();//blue
 
 });
